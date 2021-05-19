@@ -16,4 +16,5 @@ logo_image_light: /img/light_area_environments-4x.png
 category: Wall Coverings
 tags:
   - Wall Coverings
+  - Wall Paper
 ---
