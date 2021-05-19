@@ -27,6 +27,23 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "manufacturer"
+    label: "Manufacturer"
+    folder: "src/pages/manufacturers"
+    path: "{{slug}}/index"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "manufacturer-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Hero Image", name: "hero_image", widget: "image"}
+      - {label: "Logo Image Dark", name: "logo_image_dark", widget: "image"}
+      - {label: "Logo Image Light", name: "logo_image_light", widget: "image"}
+      - {label: "Category", name: "category", widget: "text"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "pages"
     label: "Pages"
     files:
